@@ -111,7 +111,7 @@ crons = ["0 3 * * *"]
 [[d1_databases]]
 binding = "vault1"
 database_name = "vault1"
-database_id = "${D1_DATABASE_ID}"
+database_id = "4369a6d6-15dd-4a24-9ee2-d25a71257c3b"
 migrations_dir = "migrations"
 
 # R2 bucket for file attachments (optional, requires credit card)
@@ -127,6 +127,7 @@ migrations_dir = "migrations"
 # If R2 is not configured, KV will be used for attachments.
 [[kv_namespaces]]
 binding = "ATTACHMENTS_KV"
+id = "a4798dd26c7a40959df38e20c11cf1b7"
 
 [env.dev]
 name = "warden-worker-dev"
